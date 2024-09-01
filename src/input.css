@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+       background-color: rgb(33, 34, 112);
+       color: antiquewhite;
+       border: 1px solid gainsboro;
+       padding: 5px;
+       border-radius: 10px;
+    }
+}
